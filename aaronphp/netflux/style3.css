@@ -1,0 +1,45 @@
+body {
+   background-color:#141414 ;
+   text-align: center;
+   color: white;
+   
+}
+
+.marge {
+    margin:10%;
+}
+
+.titre {
+    font-size: 3.5vw;
+    color: white;
+}
+
+.profil {
+    color: grey;
+    display: flex;
+    text-align: center;
+
+    flex-direction: row;
+    align-items: center;
+    border-image: 10%;
+}
+
+
+span{padding: 15px 5px;
+list-style: none;
+border-image: 10%;
+}
+
+a{
+    padding:0px 10px ;
+}
+
+
+.liste{
+    list-style: none;
+}
+
+.td{
+    margin: 100px;
+}
+

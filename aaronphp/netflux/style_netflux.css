@@ -1,0 +1,161 @@
+body{
+    background-color: #141414;
+}
+
+.ex1{
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5vw;
+    color: white;
+}
+
+
+
+div>ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;  /*decalage pour centrer les images*/
+    color:white;
+}
+
+
+
+div>ul>li{
+    padding: 8px;
+    color:white;
+}
+
+
+
+span{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    padding-block: 15px;    /*padding vertical*/
+    padding-inline: 0px;    /*padding horizontal*/
+    font-size: 1.3vw;
+    color: grey
+}
+
+
+
+
+a{
+    padding: 0px;
+}
+
+
+
+.img1,.img2,.img3,.img4{
+    border-radius: 10%;
+}
+
+
+
+.img1:hover,.img2:hover,.img3:hover,.img4:hover{
+    border: 2px solid white;
+}
+
+li:hover>span{
+    color: white;
+}
+
+
+
+/*----------------------------------------------EX2----------------------------------------------*/
+
+nav>ul{
+    padding-block: 0px;    /*padding vertical*/
+    padding-inline: 20px;    /*padding horizontal*/
+    color: white;
+    list-style: none;
+}
+
+h2{
+    color: white;
+    padding-block: 0px;
+    padding-inline: 40px;
+}
+
+.video{
+    margin-top: 100px;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav>ul>li{
+    padding-inline: 20px;
+}
+
+.l1,.l2,.l3,.l4,.l5{
+    display: flex;
+    padding: 0px;
+}
+
+.l3{
+   height: 200px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+
+#s,#p{
+    border: none;
+    font-size: 3em;
+    background-color: #00000000;
+}
+
+
+
+.list:hover{
+    cursor: pointer;
+}
+
+#s:hover,#p:hover{
+    color:black;
+    background-color: rgb(0, 0, 0);
+}
+
+.p{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+#pop:hover{
+    background-image: url(https://uqload.io/qr7qgx5on3jl.html);
+    background-size: 200px;
+    height:250px;
+    border: 2px solid;
+    color: rgb(235, 232, 232);
+}
+
+
+.list>div>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+
+.detail{
+  color:white  
+}
+
+
+
+
+
+
+
